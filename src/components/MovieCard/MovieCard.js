@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardMedia, CardContent, Typography, CardActions, Button, Tooltip, Grid } from "@mui/material";
+import { Card, CardMedia, CardContent, Typography, CardActions, Button, Tooltip, Grid } from '@mui/material';
 
 const MovieCard = (props) => {
     return (

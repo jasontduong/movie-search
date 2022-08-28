@@ -1,7 +1,6 @@
 {
   "name": "movie-search",
   "version": "0.1.0",
-  "homepage": "https://jasontduong.github.io/movie-search",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.0",
