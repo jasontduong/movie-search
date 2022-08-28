@@ -16,7 +16,7 @@ const App = () => {
 
   useEffect(() => {
     const getMovieRequest = async () => {
-      const url = `http://www.omdbapi.com/?s=${searchValue}` + API_KEY;
+      const url = `https://www.omdbapi.com/?s=${searchValue}` + API_KEY;
   
       const response = await fetch(url);
       const responseJson = await response.json();
