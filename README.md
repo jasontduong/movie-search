@@ -1,5 +1,5 @@
 # filmify
 
-Done as part of a technical code sample review.
+Completed as part of a technical code sample review.
 
 Live Demo: https://filmifysearch.netlify.app/
