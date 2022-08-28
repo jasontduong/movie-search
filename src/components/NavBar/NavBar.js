@@ -9,13 +9,13 @@ const PrimarySearchNavBar = (props) => {
 
   return (
     <Box sx={{ flexGrow: 1, mb: 4 }}>
-      <AppBar sx={{ bgcolor: 'black', borderBottom: 1 }} position='static'>
+      <AppBar sx={{ bgcolor: 'black', borderBottom: 1}} position='static'>
         <Toolbar sx={{ justifyContent: 'space-between' }}>
           <Typography
             variant="h4"
             noWrap
             component="div"
-            sx={{ ml: 2, display: { xs: 'none', sm: 'block' } }}
+            sx={{ mx: 2, display: { xs: 'none', sm: 'block' } }}
           >
             filmify.
           </Typography>
@@ -31,7 +31,7 @@ const PrimarySearchNavBar = (props) => {
               placeholder='Type to search...'
             />
           </Search>
-          <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
+          <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mx: 2 }}>
             <MenuIcon />
           </IconButton>
         </Toolbar>
